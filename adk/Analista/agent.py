@@ -5,7 +5,6 @@ from google.adk.runners import Runner
 from google.adk.agents import LlmAgent
 from google.adk.tools import FunctionTool
 from google.cloud import bigquery
-from google.adk.models.lite_llm import LiteLlm
 from google.adk.agents.run_config import RunConfig
 from typing import Dict, Any
 from datetime import date, datetime
